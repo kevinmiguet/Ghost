@@ -1,4 +1,11 @@
-module.exports = ({siteTitle, email, url, accentColor = '#15212A', siteDomain, siteUrl}) => `
+module.exports = ({
+    siteTitle,
+    email,
+    url,
+    accentColor = "#15212A",
+    siteDomain,
+    siteUrl,
+}) => `
 <!doctype html>
 <html>
   <head>
@@ -116,7 +123,7 @@ module.exports = ({siteTitle, email, url, accentColor = '#15212A', siteDomain, s
                   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
                     <tr>
                       <td style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; vertical-align: top;">
-                        <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 20px; color: #15212A; font-weight: bold; line-height: 25px; margin: 0; margin-bottom: 15px;">Hey there!</p>
+                        <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 20px; color: #15212A; font-weight: bold; line-height: 25px; margin: 0; margin-bottom: 15px;">Coucou !</p>
                         <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; color: #3A464C; font-weight: normal; line-height: 25px; margin: 0; margin-bottom: 32px;">Thanks for signing up for ${siteTitle} — use this link to complete the sign up process and be automatically signed in:</p>
                         <table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; box-sizing: border-box;">
                           <tbody>
